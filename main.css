@@ -29,18 +29,18 @@ nav a:hover {
 }
 
 /* Hero section (Welcome part) */
-.hero {
+#welcome {
   text-align: center;
   padding: 100px 20px;
 }
 
-.hero h1 {
+#welcome h1 {
   font-size: 3rem;
   color: #00aaff; /* bright blue welcome text for contrast */
   margin-bottom: 15px;
 }
 
-.hero p {
+#welcome p {
   font-size: 1.2rem;
   color: #ddd; /* light gray for paragraph text */
 }
