@@ -1,0 +1,50 @@
+/* MOBILE STYLES (up to 600px) */
+
+body.aboutmemini {
+  background: linear-gradient(180deg, black, gray);
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+header {
+  padding: 10px;
+}
+
+nav a {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+#about-me {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#about-me h1 {
+  font-size: 2rem;
+}
+
+#about-me p {
+  font-size: 1rem;
+}
+
+#about-me video {
+  width: 100%;
+  height: auto;
+}
+
+#media img {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+footer {
+  font-size: 0.9rem;
+  padding: 15px;
+}

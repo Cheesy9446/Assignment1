@@ -1,0 +1,47 @@
+/* TABLET STYLES */
+
+body.aboutmemini {
+  background: linear-gradient(90deg, black, gray);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 15px;
+}
+
+nav a {
+  margin: 0 15px;
+  font-size: 19px;
+}
+
+#about-me {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#about-me h1 {
+  font-size: 2.5rem;
+}
+
+#about-me p {
+  font-size: 1.1rem;
+}
+
+#about-me video {
+  width: 90%;
+  height: auto;
+}
+
+#media img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+}
