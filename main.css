@@ -1,10 +1,10 @@
-/* General page style */
+/* MAIN BODY */
 body.minimain {
   margin: 0;
   padding: 0;
   font-family: Arial;
-  background-color: black; /* black background */
-  color: #fff; /* white text */
+  background-color: black;
+  color: #fff; 
 }
 
 body.aboutmemini {
@@ -31,9 +31,9 @@ body.projectsmini {
   color: white;
 }
 
-/* Header and navigation */
+/* MAIN HEADER AND NAV */
 header {
-  background-color: darkslategray; /* slightly lighter black for header */
+  background-color: darkslategray; 
   padding: 15px 0;
 }
 
@@ -42,7 +42,7 @@ nav {
 }
 
 nav a {
-  color: #fff; /* white links */
+  color: #fff; 
   text-decoration: none;
   margin: 0 20px;
   font-size: 18px;
@@ -52,7 +52,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Hero section (Welcome part) */
+/* MAIN WELCOME PORTION */
 #welcome {
   text-align: center;
   padding: 100px 20px;
@@ -60,20 +60,20 @@ nav a:hover {
 
 #welcome h1 {
   font-size: 3rem;
-  color: #00aaff; /* bright blue welcome text for contrast */
+  color: #00aaff; 
   margin-bottom: 15px;
 }
 
 #welcome p {
   font-size: 1.2rem;
-  color: #ddd; /* light gray for paragraph text */
+  color: #ddd;
 }
 
-/* Footer */
+/* MAIN FOOTER */
 footer {
   text-align: center;
   padding: 15px;
-  color: #aaa; /* softer footer text */
+  color: #aaa; 
 }
 
 #about-me {
