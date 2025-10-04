@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Humza's] Portfolio - Contact Me</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body class="contactmini">
+  <!-- Header / Navigation -->
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact Me</a>
+    </nav>
+  </header>
+
+  <!-- Contact Form Section -->
+  <section id="contact-page">
+    <h1>Contact Me</h1>
+    <form action="#" method="post">
+
+      <!-- Name -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Your full name">
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="example@example.com">
+
+      <!-- Cell Number -->
+      <label for="phone">Cell No.:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="1234567890">
+
+      <!-- Comments -->
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" rows="5" placeholder="Write your message here..." required></textarea>
+
+      <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; Humza Chaudhry, 100926654
+  </footer>
+</body>
+</html>
